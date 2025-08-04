@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsk2fxjgdueob"]
+
+[ext_resource type="Script" uid="uid://doawieny0nnas" path="res://Scripts/character_body_2d.gd" id="1_ebmjs"]
+[ext_resource type="Texture2D" uid="uid://bovr3ax80qslw" path="res://Sprites/character_beige_front.png" id="2_qxrlw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wrm1d"]
+radius = 15.0
+height = 46.0
+
+[node name="Game" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(-10, -238)
+script = ExtResource("1_ebmjs")
+SPEED = 500.0
+JUMP_VELOCITY = -600.0
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.466, 0.5)
+texture = ExtResource("2_qxrlw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(0, 9)
+shape = SubResource("CapsuleShape2D_wrm1d")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-2, 0)
