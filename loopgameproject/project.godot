@@ -14,3 +14,11 @@ config/name="LoopGameProject"
 run/main_scene="uid://bsk2fxjgdueob"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[global_group]
+
+Player=""
+
+[physics]
+
+2d/default_gravity=2000.0

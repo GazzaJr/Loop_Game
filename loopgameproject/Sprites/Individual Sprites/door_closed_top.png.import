@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bovr3ax80qslw"
-path="res://.godot/imported/character_beige_front.png-b506f0fd514dd98b7cf52f3c0b7d2c7f.ctex"
+uid="uid://y0y2sawmkot0"
+path="res://.godot/imported/door_closed_top.png-8d9c2939c770b8a6165a38fa9ea69700.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/character_beige_front.png"
-dest_files=["res://.godot/imported/character_beige_front.png-b506f0fd514dd98b7cf52f3c0b7d2c7f.ctex"]
+source_file="res://Sprites/Individual Sprites/door_closed_top.png"
+dest_files=["res://.godot/imported/door_closed_top.png-8d9c2939c770b8a6165a38fa9ea69700.ctex"]
 
 [params]
 
