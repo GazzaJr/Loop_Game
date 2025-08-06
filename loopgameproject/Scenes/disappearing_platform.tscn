@@ -1,20 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://bml154lppfqy4"]
+[gd_scene load_steps=3 format=3 uid="uid://bml154lppfqy4"]
 
 [ext_resource type="Script" uid="uid://bqgvq1ro26ouy" path="res://Scripts/disappearing_platform.gd" id="1_trbhs"]
-[ext_resource type="Texture2D" uid="uid://ctyh2sq20cmxh" path="res://Sprites/Spritesheets/spritesheet-tiles-default.png" id="2_2w6nr"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_eiwmw"]
-atlas = ExtResource("2_2w6nr")
-region = Rect2(1088, 64, 64, 64)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ktula"]
-size = Vector2(64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_cr0ua"]
 
 [node name="disappearing_platform" type="StaticBody2D"]
 script = ExtResource("1_trbhs")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = SubResource("AtlasTexture_eiwmw")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_ktula")
+texture = SubResource("AtlasTexture_cr0ua")
